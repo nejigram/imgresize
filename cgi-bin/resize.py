@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 #coding=utf8
-
-# enable debugging
-import cgitb
-cgitb.enable()
-
-print("Content-Type: text/plain;charset=utf-8")
-print()
-
-print("Hello World!")
-print("aaa")
+import sys
+import os
+from PIL import Image
+print("aaa");
